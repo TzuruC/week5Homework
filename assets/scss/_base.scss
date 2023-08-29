@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 24px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a,
+a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+
+
+.pt-8{
+	padding-top: 32px;
+}
+.pr-8{
+	padding-right: 32px;
+}
+.pb-8{
+	padding-bottom: 32px;
+}
+.pl-8{
+	padding-left: 32px;
+}
+.pt-7{
+	padding-top: 28px;
+}
+.pr-7{
+	padding-right: 28px;
+}
+.pb-7{
+	padding-bottom: 28px;
+}
+.pl-7{
+	padding-left: 28px;
+}
+.pt-3{
+	padding-top: 12px;
+}
+.pr-3{
+	padding-right: 12px;
+}
+.pb-3{
+	padding-bottom: 12px;
+}
+.pl-3{
+	padding-left: 12px;
+}
+.pt-1{
+	padding-top: 8px;
+}
+.pr-1{
+	padding-right: 8px;
+}
+.pb-1{
+	padding-bottom: 8px;
+}
+.pl-1{
+	padding-left: 8px;
+}
+.mt-1{
+	margin-top: 4px;
+}
+.mr-1{
+	margin-right: 4px;
+}
+.mb-1{
+	margin-bottom: 4px;
+}
+.ml-1{
+	margin-left: 4px;
+}
+.mt-2{
+	margin-top: 8px;
+}
+.mr-2{
+	margin-right: 8px;
+}
+.mb-2{
+	margin-bottom: 8px;
+}
+.ml-2{
+	margin-left: 8px;
+}
+.mt-4{
+	margin-top: 16px;
+}
+.mr-4{
+	margin-right: 16px !important;
+}
+.mb-4{
+	margin-bottom: 16px;
+}
+.ml-4{
+	margin-left: 16px;
+}
+.mt-6{
+	margin-top: 24px;
+}
+.mr-6{
+	margin-right: 24px !important;
+}
+.mb-6{
+	margin-bottom: 24px;
+}
+.ml-6{
+	margin-left: 24px;
+}
+.mt-8{
+	margin-top: 32px;
+}
+.mr-8{
+	margin-right: 32px !important;
+}
+.mb-8{
+	margin-bottom: 32px;
+}
+.ml-8{
+	margin-left: 32px;
+}
+.mt-12{
+	margin-top: 48px;
+}
+.mr-12{
+	margin-right: 48px !important;
+}
+.mb-12{
+	margin-bottom: 48px;
+}
+.ml-12{
+	margin-left: 48px;
+}
+
+.text-1{
+	font-size: 16px;
+	font-weight: bold;
+	color: $color-gray-900;
+}
+.text-2{
+	font-size: 14px;
+	color: $color-gray-600;
+	&:hover{
+		color: $color-success;
+	}
+}
+.text-3{
+	font-size: 16px;
+	font-weight: bold;
+}
+.text-4{
+	font-size: 24px;
+	font-weight: bold;
+	color: $color-gray-900;
+	line-height: 24px;
+}
+.text-5{
+	font-size: 16px;
+	color: $color-gray-900;
+}
+.text-6{
+	font-size: 16px;
+	color: $color-success;
+	&:hover{
+		color: $color-white;
+	}
+}
+.text-success{
+	color: $color-success;
+}
+.bt-0{
+	border-top: 0;
+}
+.bb-0{
+	border-bottom: 0;
+}
+.border-success{
+    border-color: $color-success;
+}
